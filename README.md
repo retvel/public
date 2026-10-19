@@ -53,6 +53,7 @@ Rules:
 
 | Topic | Snapshots | Origin |
 |-------|-----------|--------|
+| [cybersecurity](sources/cybersecurity/README.md) | 54 | OWASP Top 10:2025, Cheat Sheet Series, Developer Guide, WSTG (CC BY-SA 4.0); NIST SP 800-63B-4, CSF 2.0, SP 800-53r5, SP 800-61r3, FIPS 203–205, NICE (public domain); CISA KEV (CC0) — accessed 2026-10-19 |
 | [docker](sources/docker/README.md) | 54 | Docker Docs (`docker/docs` @ `31d174d`, 2026-10-16), Apache-2.0 |
 | [elastic-stack](sources/elastic-stack/README.md) | 20 | Elastic docs (`elastic/docs-content` @ `55f05da`, `elastic/elasticsearch` @ `6d7cefb`, `elastic/logstash` @ `5ad00e8`, `elastic/docs-builder` @ `879aace`), CC BY-NC-ND 4.0 / AGPL-3.0 / Apache-2.0 |
 | [llm-security](sources/llm-security/README.md) | 15 | OWASP Top 10 for LLM Applications 2025 (`OWASP/www-project-top-10-for-large-language-model-applications` @ `99f4395`) and OWASP GenAI resource pages, CC BY-SA 4.0; Google SAIF pages (all rights reserved) |
