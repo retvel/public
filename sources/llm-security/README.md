@@ -1,6 +1,6 @@
 # LLM security sources
 
-Snapshots of the sources used by the `llm-security` reference in `retvel/ref`.
+Snapshots of the sources used by the `llm-security` reference.
 
 - **Origin:** [`OWASP/www-project-top-10-for-large-language-model-applications`](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications), folder `2_0_vulns` (2025 edition), commit `99f4395` (2026-08-05).
 - **License:** CC BY-SA 4.0. Full text in [LICENSE-owasp-llm-top-10](LICENSE-owasp-llm-top-10). Snapshots reproduce the original files verbatim below their header.

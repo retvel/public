@@ -1,6 +1,6 @@
 # Elastic Stack sources
 
-Snapshots of the sources used by the `elastic-stack` reference in `retvel/ref`.
+Snapshots of the sources used by the `elastic-stack` reference.
 
 - **Origin:** [`elastic/docs-builder`](https://github.com/elastic/docs-builder) at commit `879aace` (2026-10-16).
 - **License:** Apache License 2.0 (Copyright Elasticsearch B.V.). Full text in [LICENSE-docs-builder](LICENSE-docs-builder). Snapshots reproduce the original file verbatim below their header.

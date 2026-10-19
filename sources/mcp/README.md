@@ -1,6 +1,6 @@
 # Model Context Protocol (MCP) sources
 
-Snapshots of the sources used by the `mcp` reference in `retvel/ref`.
+Snapshots of the sources used by the `mcp` reference.
 
 - **Origin:** [`modelcontextprotocol/modelcontextprotocol`](https://github.com/modelcontextprotocol/modelcontextprotocol) at commit `1155ca4` (2026-10-17), the source of https://modelcontextprotocol.io/.
 - **License:** documentation CC BY 4.0; specification Apache-2.0 (older contributions MIT). Full text in [LICENSE-mcp](LICENSE-mcp). Snapshots reproduce the original files verbatim below their header (image paths point to copies in `assets/`).
