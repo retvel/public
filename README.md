@@ -13,6 +13,7 @@ sources/
 └── <topic>/
     ├── README.md             # list of snapshots for the topic, with original URLs
     ├── LICENSE-<origin>      # license of the copied material, when required
+    ├── assets/               # images used by the snapshots (only when there are any)
     └── YYYYMMDD-<slug>.md    # one snapshot per source page
 ```
 
@@ -35,6 +36,9 @@ Each snapshot starts with a header, then the source content:
 ```
 
 Rules:
+- **Images included.** Images that a source page shows are copied into `assets/`, and
+  their paths in the snapshot point to those copies. The header lists each copy with its
+  original path. Nothing else in the text is changed.
 - **Immutable.** A snapshot is never edited after it is added. If the source changes,
   a new dated snapshot is added next to the old one.
 - **Only shareable sources.** This repo holds only sources whose license allows sharing

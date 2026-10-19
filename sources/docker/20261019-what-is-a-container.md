@@ -4,7 +4,8 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/
 - **Upstream file:** [`docker/docs` → `content/get-started/docker-concepts/the-basics/what-is-a-container.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/what-is-a-container.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim and unmodified below this line.
+- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim below this line, except image paths (see Images).
+- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (query options such as `?border=true` removed); the text is otherwise verbatim. Copies: [`search-the-docker-image.webp`](assets/search-the-docker-image.webp) ← [`content/get-started/docker-concepts/the-basics/images/search-the-docker-image.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/search-the-docker-image.webp); [`run-a-new-container.webp`](assets/run-a-new-container.webp) ← [`content/get-started/docker-concepts/the-basics/images/run-a-new-container.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/run-a-new-container.webp); [`view-your-containers.webp`](assets/view-your-containers.webp) ← [`content/get-started/docker-concepts/the-basics/images/view-your-containers.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/view-your-containers.webp); [`access-the-frontend.webp`](assets/access-the-frontend.webp) ← [`content/get-started/docker-concepts/the-basics/images/access-the-frontend.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/access-the-frontend.webp); [`explore-your-container.webp`](assets/explore-your-container.webp) ← [`content/get-started/docker-concepts/the-basics/images/explore-your-container.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/explore-your-container.webp); [`stop-your-container.webp`](assets/stop-your-container.webp) ← [`content/get-started/docker-concepts/the-basics/images/stop-your-container.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/stop-your-container.webp)
 
 ---
 
@@ -67,7 +68,7 @@ Use the following instructions to run a container.
 
 2. Specify `welcome-to-docker` in the search input and then select the **Pull** button.
 
-    ![A screenshot of the Docker Desktop Dashboard showing the search result for welcome-to-docker Docker image](images/search-the-docker-image.webp?border=true&w=1000&h=700)
+    ![A screenshot of the Docker Desktop Dashboard showing the search result for welcome-to-docker Docker image](assets/search-the-docker-image.webp)
 
 3. Once the image is successfully pulled, select the **Run** button.
 
@@ -77,7 +78,7 @@ Use the following instructions to run a container.
 
 6. In the **Host port**, specify `8080`.
 
-    ![A screenshot of Docker Desktop Dashboard showing the container run dialog with welcome-to-docker typed in as the container name and 8080 specified as the port number](images/run-a-new-container.webp?border=true&w=550&h=400)
+    ![A screenshot of Docker Desktop Dashboard showing the container run dialog with welcome-to-docker typed in as the container name and 8080 specified as the port number](assets/run-a-new-container.webp)
 
 7. Select **Run** to start your container.
 
@@ -87,7 +88,7 @@ Congratulations! You just ran your first container! 🎉
 
 You can view all of your containers by going to the **Containers** view of the Docker Desktop Dashboard.
 
-![Screenshot of the container view of the Docker Desktop GUI showing the welcome-to-docker container running on the host port 8080](images/view-your-containers.webp?border=true&w=750&h=600)
+![Screenshot of the container view of the Docker Desktop GUI showing the welcome-to-docker container running on the host port 8080](assets/view-your-containers.webp)
 
 This container runs a web server that displays a simple website. When working with more complex projects, you'll run different parts in different containers. For example, you might run a different container for the frontend, backend, and database.
 
@@ -97,7 +98,7 @@ When you launched the container, you exposed one of the container's ports onto y
 
 For this container, the frontend is accessible on port `8080`. To open the website, select the link in the **Port(s)** column of your container or visit [http://localhost:8080](http://localhost:8080) in your browser.
 
-![Screenshot of the landing page coming from the running container](images/access-the-frontend.webp?border)
+![Screenshot of the landing page coming from the running container](assets/access-the-frontend.webp)
 
 ### Explore your container
 
@@ -109,7 +110,7 @@ Docker Desktop lets you explore and interact with different aspects of your cont
 
 3. Select the **Files** tab to explore your container's isolated file system.
 
-    ![Screenshot of the Docker Desktop Dashboard showing the files and directories inside a running container](images/explore-your-container.webp?border)
+    ![Screenshot of the Docker Desktop Dashboard showing the files and directories inside a running container](assets/explore-your-container.webp)
 
 ### Stop your container
 
@@ -121,7 +122,7 @@ The `docker/welcome-to-docker` container continues to run until you stop it.
 
 3. Select the **Stop** action in the **Actions** column.
 
-    ![Screenshot of the Docker Desktop Dashboard with the welcome container selected and being prepared to stop](images/stop-your-container.webp?border)
+    ![Screenshot of the Docker Desktop Dashboard with the welcome container selected and being prepared to stop](assets/stop-your-container.webp)
 
 {{< /tab >}}
 {{< tab name="Using the CLI" >}}
@@ -166,7 +167,7 @@ When you launched the container, you exposed one of the container's ports onto y
 
 For this container, the frontend is accessible on port `8080`. To open the website, select the link in the **Port(s)** column of your container or visit [http://localhost:8080](http://localhost:8080) in your browser.
 
-![Screenshot of the landing page of the Nginx web server, coming from the running container](images/access-the-frontend.webp?border)
+![Screenshot of the landing page of the Nginx web server, coming from the running container](assets/access-the-frontend.webp)
 
 ### Stop your container
 

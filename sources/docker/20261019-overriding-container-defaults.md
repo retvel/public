@@ -4,7 +4,8 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/get-started/docker-concepts/running-containers/overriding-container-defaults/
 - **Upstream file:** [`docker/docs` → `content/get-started/docker-concepts/running-containers/overriding-container-defaults.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/running-containers/overriding-container-defaults.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim and unmodified below this line.
+- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim below this line, except image paths (see Images).
+- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (query options such as `?border=true` removed); the text is otherwise verbatim. Copies: [`running-postgres-containers.webp`](assets/running-postgres-containers.webp) ← [`content/get-started/docker-concepts/running-containers/images/running-postgres-containers.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/running-containers/images/running-postgres-containers.webp); [`exec-into-postgres-container.webp`](assets/exec-into-postgres-container.webp) ← [`content/get-started/docker-concepts/running-containers/images/exec-into-postgres-container.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/running-containers/images/exec-into-postgres-container.webp)
 
 ---
 
@@ -101,7 +102,7 @@ In this hands-on guide, you'll see how to use the `docker run` command to overri
 
 3. Verify that both containers are running by going to the **Containers** view in the Docker Desktop Dashboard.
 
-    ![A screenshot of the Docker Desktop Dashboard showing the running instances of Postgres containers](images/running-postgres-containers.webp?border=true)
+    ![A screenshot of the Docker Desktop Dashboard showing the running instances of Postgres containers](assets/running-postgres-containers.webp)
 
 ### Run Postgres container in a controlled network
 
@@ -188,7 +189,7 @@ Sometimes, you might need to override the default commands (`CMD`) or entry poin
     # psql -U postgres
     ```
 
-    ![A screenshot of the Docker Desktop Dashboard selecting the Postgres container and entering into its shell using EXEC button](images/exec-into-postgres-container.webp?border=true)
+    ![A screenshot of the Docker Desktop Dashboard selecting the Postgres container and entering into its shell using EXEC button](assets/exec-into-postgres-container.webp)
 
 
     > [!NOTE]

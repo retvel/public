@@ -4,7 +4,8 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/
 - **Upstream file:** [`docker/docs` → `content/get-started/docker-concepts/the-basics/what-is-an-image.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/what-is-an-image.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim and unmodified below this line.
+- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim below this line, except image paths (see Images).
+- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (query options such as `?border=true` removed); the text is otherwise verbatim. Copies: [`click-image.webp`](assets/click-image.webp) ← [`content/get-started/docker-concepts/the-basics/images/click-image.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/click-image.webp); [`search-image.webp`](assets/search-image.webp) ← [`content/get-started/docker-concepts/the-basics/images/search-image.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/search-image.webp); [`select-image.webp`](assets/select-image.webp) ← [`content/get-started/docker-concepts/the-basics/images/select-image.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/select-image.webp); [`pulled-image.webp`](assets/pulled-image.webp) ← [`content/get-started/docker-concepts/the-basics/images/pulled-image.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/pulled-image.webp); [`image-layers.webp`](assets/image-layers.webp) ← [`content/get-started/docker-concepts/the-basics/images/image-layers.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/image-layers.webp)
 
 ---
 
@@ -60,15 +61,15 @@ In this hands-on, you will learn how to search and pull a container image using 
 
 1. Open the Docker Desktop Dashboard and select the **Images** view in the left-hand navigation menu.
 
-   ![A screenshot of the Docker Desktop Dashboard showing the image view on the left sidebar](images/click-image.webp?border=true&w=1050&h=400)
+   ![A screenshot of the Docker Desktop Dashboard showing the image view on the left sidebar](assets/click-image.webp)
 
 2. Select the **Search images to run** button. If you don't see it, select the _global search bar_ at the top of the screen.
 
-   ![A screenshot of the Docker Desktop Dashboard showing the search ta](images/search-image.webp?border)
+   ![A screenshot of the Docker Desktop Dashboard showing the search ta](assets/search-image.webp)
 
 3. In the **Search** field, enter "welcome-to-docker". Once the search has completed, select the `docker/welcome-to-docker` image.
 
-   ![A screenshot of the Docker Desktop Dashboard showing the search results for the docker/welcome-to-docker image](images/select-image.webp?border=true&w=1050&h=400)
+   ![A screenshot of the Docker Desktop Dashboard showing the search results for the docker/welcome-to-docker image](assets/select-image.webp)
 
 4. Select **Pull** to download the image.
 
@@ -80,11 +81,11 @@ Once you have an image downloaded, you can learn quite a few details about the i
 
 2. Select the **docker/welcome-to-docker** image to open details about the image.
 
-   ![A screenshot of the Docker Desktop Dashboard showing the images view with an arrow pointing to the docker/welcome-to-docker image](images/pulled-image.webp?border=true&w=1050&h=400)
+   ![A screenshot of the Docker Desktop Dashboard showing the images view with an arrow pointing to the docker/welcome-to-docker image](assets/pulled-image.webp)
 
 3. The image details page presents you with information regarding the layers of the image, the packages and libraries installed in the image, and any discovered vulnerabilities.
 
-   ![A screenshot of the image details view for the docker/welcome-to-docker image](images/image-layers.webp?border=true&w=1050&h=400)
+   ![A screenshot of the image details view for the docker/welcome-to-docker image](assets/image-layers.webp)
 
 {{< /tab >}}
 

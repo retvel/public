@@ -4,7 +4,8 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-docker-compose/
 - **Upstream file:** [`docker/docs` → `content/get-started/docker-concepts/the-basics/what-is-docker-compose.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/what-is-docker-compose.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim and unmodified below this line.
+- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim below this line, except image paths (see Images).
+- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (query options such as `?border=true` removed); the text is otherwise verbatim. Copies: [`todo-list-app.webp`](assets/todo-list-app.webp) ← [`content/get-started/docker-concepts/the-basics/images/todo-list-app.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/todo-list-app.webp); [`todo-list-containers.webp`](assets/todo-list-containers.webp) ← [`content/get-started/docker-concepts/the-basics/images/todo-list-containers.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/todo-list-containers.webp); [`todo-list-delete.webp`](assets/todo-list-delete.webp) ← [`content/get-started/docker-concepts/the-basics/images/todo-list-delete.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/todo-list-delete.webp)
 
 ---
 
@@ -93,11 +94,11 @@ Follow the instructions to run the to-do list app on your system.
 
 5. With everything now up and running, you can open [http://localhost:3000](http://localhost:3000) in your browser to see the site. Note that the application may take 10-15 seconds to fully start. If the page doesn't load right away, wait a moment and refresh. Feel free to add items to the list, check them off, and remove them.
 
-    ![A screenshot of a webpage showing the todo-list application running on port 3000](images/todo-list-app.webp?border=true&w=950&h=400)
+    ![A screenshot of a webpage showing the todo-list application running on port 3000](assets/todo-list-app.webp)
 
 6. If you look at the Docker Desktop GUI, you can see the containers and dive deeper into their configuration.
 
-    ![A screenshot of Docker Desktop dashboard showing the list of containers running todo-list app](images/todo-list-containers.webp?border=true&w=950&h=400)
+    ![A screenshot of Docker Desktop dashboard showing the list of containers running todo-list app](assets/todo-list-containers.webp)
 
 
 ### Tear it down
@@ -133,7 +134,7 @@ Since this application was started using Docker Compose, it's easy to tear it al
 
 2. Alternatively, you can use the Docker Desktop GUI to remove the containers by selecting the application stack and selecting the **Delete** button.
 
-    ![A screenshot of the Docker Desktop GUI showing the containers view with an arrow pointing to the "Delete" button](images/todo-list-delete.webp?w=930&h=400)
+    ![A screenshot of the Docker Desktop GUI showing the containers view with an arrow pointing to the "Delete" button](assets/todo-list-delete.webp)
 
     > **Using the GUI for Compose stacks**
     >

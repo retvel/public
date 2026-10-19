@@ -4,7 +4,8 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/compose/intro/compose-application-model/
 - **Upstream file:** [`docker/docs` → `content/manuals/compose/intro/compose-application-model.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/manuals/compose/intro/compose-application-model.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim and unmodified below this line.
+- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim below this line, except image paths (see Images).
+- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (query options such as `?border=true` removed); the text is otherwise verbatim. Copies: [`compose-application.webp`](assets/compose-application.webp) ← [`content/manuals/compose/images/compose-application.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/manuals/compose/images/compose-application.webp)
 
 ---
 
@@ -108,7 +109,7 @@ The backend stores data in a persistent volume.
 
 Both services communicate with each other on an isolated back-tier network, while the frontend is also connected to a front-tier network and exposes port 443 for external usage.
 
-![Compose application example](../images/compose-application.webp)
+![Compose application example](assets/compose-application.webp)
 
 The example application is composed of the following parts:
 

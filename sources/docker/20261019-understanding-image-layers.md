@@ -4,7 +4,8 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/get-started/docker-concepts/building-images/understanding-image-layers/
 - **Upstream file:** [`docker/docs` → `content/get-started/docker-concepts/building-images/understanding-image-layers.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/building-images/understanding-image-layers.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim and unmodified below this line.
+- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim below this line, except image paths (see Images).
+- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (query options such as `?border=true` removed); the text is otherwise verbatim. Copies: [`container_image_layers.webp`](assets/container_image_layers.webp) ← [`content/get-started/docker-concepts/building-images/images/container_image_layers.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/building-images/images/container_image_layers.webp); [`container_image_layer_reuse.webp`](assets/container_image_layer_reuse.webp) ← [`content/get-started/docker-concepts/building-images/images/container_image_layer_reuse.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/building-images/images/container_image_layer_reuse.webp)
 
 ---
 
@@ -40,11 +41,11 @@ Each layer in an image contains a set of filesystem changes - additions, deletio
 
 This example might look like:
 
-![screenshot of the flowchart showing the concept of the image layers](images/container_image_layers.webp?border=true)
+![screenshot of the flowchart showing the concept of the image layers](assets/container_image_layers.webp)
 
 This is beneficial because it allows layers to be reused between images. For example, imagine you wanted to create another Python application. Due to layering, you can leverage the same Python base. This will make builds faster and reduce the amount of storage and bandwidth required to distribute the images. The image layering might look similar to the following:
 
-![screenshot of the flowchart showing the benefits of the image layering](images/container_image_layer_reuse.webp?border=true)
+![screenshot of the flowchart showing the benefits of the image layering](assets/container_image_layer_reuse.webp)
 
 Layers let you extend images of others by reusing their base layers, allowing you to add only the data that your application needs.
 

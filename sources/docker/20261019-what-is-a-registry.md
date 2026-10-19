@@ -4,7 +4,8 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-registry/
 - **Upstream file:** [`docker/docs` → `content/get-started/docker-concepts/the-basics/what-is-a-registry.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/what-is-a-registry.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim and unmodified below this line.
+- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim below this line, except image paths (see Images).
+- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (query options such as `?border=true` removed); the text is otherwise verbatim. Copies: [`dockerhub-signup.webp`](assets/dockerhub-signup.webp) ← [`content/get-started/docker-concepts/the-basics/images/dockerhub-signup.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/dockerhub-signup.webp); [`create-hub-repository.webp`](assets/create-hub-repository.webp) ← [`content/get-started/docker-concepts/the-basics/images/create-hub-repository.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/create-hub-repository.webp); [`dockerhub-tags.webp`](assets/dockerhub-tags.webp) ← [`content/get-started/docker-concepts/the-basics/images/dockerhub-tags.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/dockerhub-tags.webp)
 
 ---
 
@@ -66,7 +67,7 @@ In this hands-on, you will learn how to build and push a Docker image to the Doc
 
 1. If you haven't created one yet, head over to the [Docker Hub](https://hub.docker.com) page to sign up for a new Docker account. Be sure to finish the verification steps sent to your email.
 
-   ![Screenshot of the official Docker Hub page showing the Sign up page](images/dockerhub-signup.webp?border)
+   ![Screenshot of the official Docker Hub page showing the Sign up page](assets/dockerhub-signup.webp)
 
    You can use your Google or GitHub account to authenticate.
 
@@ -76,7 +77,7 @@ In this hands-on, you will learn how to build and push a Docker image to the Doc
 2. Select the **Create repository** button in the top-right corner.
 3. Select your namespace (most likely your username) and enter `docker-quickstart` as the repository name.
 
-   ![Screenshot of the Docker Hub page that shows how to create a public repository](images/create-hub-repository.webp?border)
+   ![Screenshot of the Docker Hub page that shows how to create a public repository](assets/create-hub-repository.webp)
 
 4. Set the visibility to **Public**.
 5. Select the **Create** button to create the repository.
@@ -153,7 +154,7 @@ Don't worry about the specifics of the Dockerfile, as you'll learn about that in
 
 8. Open [Docker Hub](https://hub.docker.com) and navigate to your repository. Navigate to the **Tags** section and see your newly pushed image.
 
-   ![Screenshot of the Docker Hub page that displays the newly added image tag](images/dockerhub-tags.webp?border=true)
+   ![Screenshot of the Docker Hub page that displays the newly added image tag](assets/dockerhub-tags.webp)
 
 In this walkthrough, you signed up for a Docker account, created your first Docker Hub repository, and built, tagged, and pushed a container image to your Docker Hub repository.
 
