@@ -1,0 +1,147 @@
+# Source Snapshot: gh issue create (GitHub CLI manual)
+
+- **Accessed:** 2026-10-19
+- **Type:** official documentation (GitHub CLI manual)
+- **URL:** https://cli.github.com/manual/gh_issue_create
+- **Published / updated:** not stated on the page; the GitHub CLI home page offered release v2.102.0 for download on the same day (see 20261019-github-cli-home.md)
+- **Capture:** Fetched with curl on 2026-10-19. The element with `id="main"` (the page's main content) was converted to GitHub-flavored Markdown with pandoc, after removing scripts, styles, navigation, forms, buttons, empty heading anchors, and syntax-highlighting markup inside code blocks. The text is otherwise verbatim. Images are not copied; links are kept as on the page.
+
+---
+
+## gh issue create
+
+    gh issue create [flags]
+
+Create an issue on GitHub.
+
+Use `--attach` to upload an image or video. The attachment is appended to the body. If the body references an attached file, such as `![alt](./login.png)`, that reference is rewritten to point at the uploaded asset instead. You can attach up to 50 files per command.
+
+Alt text for an image follows the path after `#`, as in `--attach './login.png#The login error state'`. Without it the filename is used. A reference already in the body keeps the alt text written there. Video renders as a player and has no alt text, so it cannot be given any.
+
+If some attachments upload and others fail, the issue is still created with the ones that succeeded. The command then exits with a non-zero status, but the new issue's URL is still printed to stdout.
+
+Adding an issue to projects requires authorization with the `project` scope. To authorize, run `gh auth refresh -s project`.
+
+The `--assignee` flag supports the following special values:
+
+- `@me`: assign yourself
+- `@copilot`: assign Copilot (not supported on GitHub Enterprise Server)
+
+### Options
+
+`-a`, `--assignee <login>`  
+Assign people by their login. Use "@me" to self-assign.
+
+`--attach <file>`  
+Attach an image or video file, in '\<file\>#\<image alt text\>' format
+
+`--blocked-by <numbers>`  
+Mark the new issue as blocked by these issue numbers or URLs
+
+`--blocking <numbers>`  
+Mark the new issue as blocking these issue numbers or URLs
+
+`-b`, `--body <string>`  
+Supply a body. Will prompt for one otherwise.
+
+`-F`, `--body-file <file>`  
+Read body text from file (use "-" to read from standard input)
+
+`-e`, `--editor`  
+Skip prompts and open the text editor to write the title and body in. The first line is the title and the remaining text is the body.
+
+`-l`, `--label <name>`  
+Add labels by name
+
+`-m`, `--milestone <name>`  
+Add the issue to a milestone by name
+
+`--parent <number>`  
+Add the new issue as a sub-issue of the specified parent number or URL
+
+`-p`, `--project <title>`  
+Add the issue to projects by title
+
+`--recover <string>`  
+Recover input from a failed run of create
+
+`-T`, `--template <name>`  
+Template name to use as starting body text
+
+`-t`, `--title <string>`  
+Supply a title. Will prompt for one otherwise.
+
+`--type <name>`  
+Set the issue type by name
+
+`-w`, `--web`  
+Open the browser to create an issue
+
+### Options inherited from parent commands
+
+`-R`, `--repo <[HOST/]OWNER/REPO>`  
+Select another repository using the \[HOST/\]OWNER/REPO format
+
+### ALIASES
+
+gh issue new
+
+### Examples
+
+    $ gh issue create --title "I found a bug" --body "Nothing works"
+    $ gh issue create --attach './login.png#The login error state'
+    $ gh issue create --attach ./before.png --attach ./after.png
+    $ gh issue create --label "bug,help wanted"
+    $ gh issue create --label bug --label "help wanted"
+    $ gh issue create --assignee monalisa,hubot
+    $ gh issue create --assignee "@me"
+    $ gh issue create --assignee "@copilot"
+    $ gh issue create --project "Roadmap"
+    $ gh issue create --template "Bug Report"
+    $ gh issue create --type Bug
+    $ gh issue create --parent 100
+    $ gh issue create --parent https://github.com/cli/go-gh/issues/42
+    $ gh issue create --blocked-by 200,201 --blocking 300
+
+### See also
+
+- [gh issue](./gh_issue)
+
+### In use
+
+#### Interactively
+
+    # Create an issue interactively
+    ~/Projects/my-project$ gh issue create
+    Creating issue in owner/repo
+    ? Title My new issue
+    ? Body [(e) to launch nano, enter to skip]
+    http://github.com/owner/repo/issues/1
+    ~/Projects/my-project$
+
+#### With flags
+
+    # Create an issue using flags
+    ~/Projects/my-project$ gh issue create --title "Issue title" --body "Issue body"
+    http://github.com/owner/repo/issues/1
+    ~/Projects/my-project$
+
+#### In the browser
+
+    // Quickly navigate to the issue creation page
+    ~/Projects/my-project$ gh issue create --web
+    Opening https://github.com/owner/repo/issues/new in your browser.
+    ~/Projects/my-project$
+
+- © 2026 GitHub, Inc.
+- <a href="https://help.github.com/en/articles/github-terms-of-service/" class="color-fg-muted">Terms</a>
+- <a href="https://help.github.com/en/articles/github-privacy-statement/" class="color-fg-muted">Privacy</a>
+- <a href="https://docs.github.com/en/github-cli/github-cli/github-cli-telemetry" class="color-fg-muted">Telemetry</a>
+
+<!-- -->
+
+- <a href="https://twitter.com/github" class="color-fg-muted" title="GitHub on Twitter"></a>
+- <a href="https://www.facebook.com/GitHub" class="color-fg-muted" title="GitHub on Facebook"></a>
+- <a href="https://www.youtube.com/github" class="color-fg-muted" title="GitHub on YouTube"></a>
+- <a href="https://www.linkedin.com/company/github" class="color-fg-muted" title="GitHub on Linkedin"></a>
+- <a href="https://github.com/github" class="color-fg-muted" title="GitHub&#39;s organization"></a>
