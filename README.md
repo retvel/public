@@ -55,4 +55,3 @@ Rules:
 | [elastic-stack](sources/elastic-stack/README.md) | 1 | Elastic docs build configuration (`elastic/docs-builder` @ `879aace`, 2026-10-16), Apache-2.0 |
 | [llm-security](sources/llm-security/README.md) | 11 | OWASP Top 10 for LLM Applications 2025 (`OWASP/www-project-top-10-for-large-language-model-applications` @ `99f4395`), CC BY-SA 4.0 |
 | [mcp](sources/mcp/README.md) | 10 | MCP docs (`modelcontextprotocol/modelcontextprotocol` @ `1155ca4`, 2026-10-17), CC BY 4.0 / Apache-2.0 |
-| [quartz](sources/quartz/README.md) | 9 | Quartz docs (`jackyzha0/quartz` @ `97a2d05`, branch v5, 2026-09-20), MIT |
