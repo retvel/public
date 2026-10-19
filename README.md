@@ -37,9 +37,10 @@ Each snapshot starts with a header, then the source content:
 Rules:
 - **Immutable.** A snapshot is never edited after it is added. If the source changes,
   a new dated snapshot is added next to the old one.
-- **Respect the license.** When the license allows it (e.g. Apache-2.0, CC BY), the full
-  original text is reproduced verbatim with attribution. Otherwise the snapshot keeps
-  only short quotes and faithful notes.
+- **Only shareable sources.** This repo holds only sources whose license allows sharing
+  copies (e.g. Apache-2.0, MIT, CC BY, public domain). Their full original text is
+  reproduced verbatim with attribution and the license file. Other sources are kept in a
+  separate private archive and are not published here.
 - **No personal data or secrets.** This repo is public.
 
 ## Topics
