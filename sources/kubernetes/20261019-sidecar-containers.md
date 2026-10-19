@@ -4,7 +4,6 @@
 - **Type:** official documentation (Kubernetes Docs)
 - **URL:** https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/
 - **Upstream file:** [`kubernetes/website` → `content/en/docs/concepts/workloads/pods/sidecar-containers.md`](https://github.com/kubernetes/website/blob/1fc565c2f557823a911f073dc577945230f27dd7/content/en/docs/concepts/workloads/pods/sidecar-containers.md) at commit `1fc565c` (2026-10-19)
-- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0) — Copyright The Kubernetes Authors ("Documentation Distributed under CC BY 4.0"). See [LICENSE-kubernetes-website](LICENSE-kubernetes-website). Reproduced verbatim and unmodified below this line.
 - **Included files:** the published page pulls these files in when the site is built (code samples, shared includes, partials). They are appended verbatim after the page, under "Included files", from the same commit: [`content/en/examples/application/deployment-sidecar.yaml`](https://github.com/kubernetes/website/blob/1fc565c2f557823a911f073dc577945230f27dd7/content/en/examples/application/deployment-sidecar.yaml); [`content/en/examples/application/job/job-sidecar.yaml`](https://github.com/kubernetes/website/blob/1fc565c2f557823a911f073dc577945230f27dd7/content/en/examples/application/job/job-sidecar.yaml)
 - **Glossary:** words marked with `glossary_tooltip` / `glossary_definition` shortcodes show text from the glossary entries, which are saved in [20261019-glossary.md](20261019-glossary.md).
 

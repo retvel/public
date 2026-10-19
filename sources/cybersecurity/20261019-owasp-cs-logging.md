@@ -4,8 +4,6 @@
 - **Type:** official documentation (OWASP Cheat Sheet Series)
 - **URL:** https://cheatsheetseries.owasp.org/cheatsheets/Logging_Cheat_Sheet.html
 - **Upstream file:** [`OWASP/CheatSheetSeries` → `cheatsheets/Logging_Cheat_Sheet.md`](https://github.com/OWASP/CheatSheetSeries/blob/83abf91f1c1ba706df94fb79150ad6dedf743253/cheatsheets/Logging_Cheat_Sheet.md) at commit `83abf91` (2026-10-19)
-- **License:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) — OWASP Cheat Sheet Series contributors. See [LICENSE-owasp-cheatsheetseries](LICENSE-owasp-cheatsheetseries). Reproduced verbatim below this line, except image paths (see Images).
-- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (including links to the same repository's images on raw.githubusercontent.com); the text is otherwise verbatim. Copies: [`Logging_Cheat_Sheet.drawio.png`](assets/Logging_Cheat_Sheet.drawio.png) ← [`assets/Logging_Cheat_Sheet.drawio.png`](https://github.com/OWASP/CheatSheetSeries/blob/83abf91f1c1ba706df94fb79150ad6dedf743253/assets/Logging_Cheat_Sheet.drawio.png)
 
 ---
 

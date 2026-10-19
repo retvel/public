@@ -6,7 +6,6 @@
 - **Author / publisher:** Andrej Karpathy (GitHub user `karpathy`)
 - **Published / updated:** 2026-04-04 (date of the gist's only revision)
 - **Upstream file:** [`karpathy/442a6bf555914893e9891c11519de94f` → `llm-wiki.md`](https://github.com/karpathy/442a6bf555914893e9891c11519de94f/blob/ac46de1ad27f92b28ac95459c782c07f6b8c964a/llm-wiki.md) at commit `ac46de1` (2026-04-04)
-- **License:** No license stated (all rights reserved by the author). Publicly accessible page, copied for non-commercial reference with attribution; all rights remain with the copyright holder. Reproduced verbatim below this line.
 
 ---
 

@@ -4,8 +4,6 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/get-started/docker-concepts/running-containers/overriding-container-defaults/
 - **Upstream file:** [`docker/docs` → `content/get-started/docker-concepts/running-containers/overriding-container-defaults.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/running-containers/overriding-container-defaults.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim below this line, except image paths (see Images).
-- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (query options such as `?border=true` removed); the text is otherwise verbatim. Copies: [`running-postgres-containers.webp`](assets/running-postgres-containers.webp) ← [`content/get-started/docker-concepts/running-containers/images/running-postgres-containers.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/running-containers/images/running-postgres-containers.webp); [`exec-into-postgres-container.webp`](assets/exec-into-postgres-container.webp) ← [`content/get-started/docker-concepts/running-containers/images/exec-into-postgres-container.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/running-containers/images/exec-into-postgres-container.webp)
 
 ---
 

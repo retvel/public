@@ -4,7 +4,6 @@
 - **Type:** official documentation (Nmap Reference Guide, DocBook source)
 - **URL:** https://nmap.org/book/man.html
 - **Upstream file:** [`nmap/nmap` → `docs/refguide.xml`](https://github.com/nmap/nmap/blob/f06480daed9a9b2cdce61904222cc87788afdf84/docs/refguide.xml) at commit `f06480d` (2026-10-15)
-- **License:** © Nmap Software LLC; distributed with Nmap under the Nmap Public Source License. Publicly accessible page, copied for non-commercial reference with attribution; all rights remain with the copyright holder. Reproduced verbatim and unmodified below this line, inside a fenced code block.
 
 ---
 

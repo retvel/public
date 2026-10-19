@@ -4,7 +4,6 @@
 - **Type:** official documentation (Kali Linux Documentation)
 - **URL:** https://www.kali.org/docs/general-use/updating-kali/
 - **Upstream file:** [`kalilinux/documentation/kali-docs (GitLab)` → `general-use/updating-kali/index.md`](https://gitlab.com/kalilinux/documentation/kali-docs/-/blob/d5aef7dd93fb7b533fb6992f1817f8f6cd9e73c0/general-use/updating-kali/index.md) at commit `d5aef7d` (2026-10-08)
-- **License:** Kali Linux documentation — © OffSec / Kali Linux team; GNU General Public License v3. See [LICENSE-kali-docs](LICENSE-kali-docs). Reproduced verbatim and unmodified below this line.
 
 ---
 

@@ -4,8 +4,6 @@
 - **Type:** official repository README (DVWA)
 - **URL:** https://github.com/digininja/DVWA
 - **Upstream file:** [`digininja/DVWA` → `README.md`](https://github.com/digininja/DVWA/blob/a1978a2fed195acd093010af6395f86a281537ca/README.md) at commit `a1978a2` (2026-10-18)
-- **License:** © DVWA project (digininja); the README states DVWA is licensed under the GNU General Public License v3 (no license file in the repository root). Publicly accessible page, copied for non-commercial reference with attribution; all rights remain with the copyright holder. Reproduced verbatim below this line, except image paths (see Images).
-- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (including links to the same repository's images on raw.githubusercontent.com); the text is otherwise verbatim. Copies: [`overview.png`](assets/overview.png) ← [`docs/graphics/docker/overview.png`](https://github.com/digininja/DVWA/blob/a1978a2fed195acd093010af6395f86a281537ca/docs/graphics/docker/overview.png); [`detail.png`](assets/detail.png) ← [`docs/graphics/docker/detail.png`](https://github.com/digininja/DVWA/blob/a1978a2fed195acd093010af6395f86a281537ca/docs/graphics/docker/detail.png)
 
 ---
 

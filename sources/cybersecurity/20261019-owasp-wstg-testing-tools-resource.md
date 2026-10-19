@@ -4,7 +4,6 @@
 - **Type:** official documentation (OWASP Web Security Testing Guide)
 - **URL:** https://owasp.org/www-project-web-security-testing-guide/latest/6-Appendix/B-Testing_Tools_Resource
 - **Upstream file:** [`OWASP/wstg` → `document/6-Appendix/B-Testing_Tools_Resource.md`](https://github.com/OWASP/wstg/blob/0dfbd5a585a503e27761b8f6c8bd8caf0903c8e8/document/6-Appendix/B-Testing_Tools_Resource.md) at commit `0dfbd5a` (2026-10-15)
-- **License:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) — OWASP Web Security Testing Guide contributors. See [LICENSE-owasp-wstg](LICENSE-owasp-wstg). Reproduced verbatim and unmodified below this line.
 
 ---
 

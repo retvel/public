@@ -4,8 +4,6 @@
 - **Type:** official documentation (Model Context Protocol)
 - **URL:** https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro
 - **Upstream file:** [`modelcontextprotocol/modelcontextprotocol` → `docs/docs/2026-07-28/getting-started/intro.mdx`](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/1155ca460e5097019f32769b38dcba194432e2fb/docs/docs/2026-07-28/getting-started/intro.mdx) at commit `1155ca4` (2026-10-17)
-- **License:** Documentation: CC BY 4.0; specification: Apache-2.0 (older contributions MIT) — per the repository `LICENSE`. See [LICENSE-mcp](LICENSE-mcp). Reproduced verbatim below this line, except image paths (see Images).
-- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies; the text is otherwise verbatim. Copies: [`mcp-simple-diagram.png`](assets/mcp-simple-diagram.png) ← [`docs/images/mcp-simple-diagram.png`](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/1155ca460e5097019f32769b38dcba194432e2fb/docs/images/mcp-simple-diagram.png)
 
 ---
 

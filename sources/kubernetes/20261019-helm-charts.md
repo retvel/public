@@ -4,7 +4,6 @@
 - **Type:** official documentation (Helm Docs, Helm 4 docs set)
 - **URL:** https://helm.sh/docs/topics/charts/
 - **Upstream file:** [`helm/helm-www` → `docs/topics/charts.mdx`](https://github.com/helm/helm-www/blob/dc74ea9bf052d34f94004b30407cded73ca838f4/docs/topics/charts.mdx) at commit `dc74ea9` (2026-10-17)
-- **License:** "© Helm Authors. Documentation distributed under CC-BY-4.0" (helm.sh site footer, `docusaurus.config.js`); the `helm/helm-www` repository is under the MIT License, see [LICENSE-helm-www](LICENSE-helm-www). Reproduced verbatim and unmodified below this line.
 - **Included files:** the published page pulls these files in when the site is built (code samples, shared includes, partials). They are appended verbatim after the page, under "Included files", from the same commit: [`docs/_v4-in-progress.mdx`](https://github.com/helm/helm-www/blob/dc74ea9bf052d34f94004b30407cded73ca838f4/docs/_v4-in-progress.mdx)
 
 ---

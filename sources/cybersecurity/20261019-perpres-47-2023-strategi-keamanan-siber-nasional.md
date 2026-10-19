@@ -6,7 +6,6 @@
 - **Author / publisher:** Republik Indonesia — JDIH Kementerian Sekretariat Negara
 - **Published / updated:** Ditetapkan dan diundangkan 20 Juli 2023 (LN 2023 No. 99)
 - **Capture:** Official PDF downloaded with curl on 2026-10-19 from https://jdih.setneg.go.id/api/hukumproduk/pdf?l=uploads&f=Salinan%20Perpres%20Nomor%2047%20Tahun%202023.pdf&fl=P19702. Text layer extracted with `pdftotext -layout` (poppler) and reproduced in full as extracted, inside a fenced text block; layout spacing is kept and OCR errors in the PDF's own text layer (it is a scanned *salinan*) are not corrected. Figures are not included.
-- **License:** Official text of the Republic of Indonesia, published by JDIH Kementerian Sekretariat Negara; laws are not subject to copyright under UU 28/2014 Pasal 42.
 
 ---
 

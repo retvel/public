@@ -4,8 +4,6 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-docker-compose/
 - **Upstream file:** [`docker/docs` → `content/get-started/docker-concepts/the-basics/what-is-docker-compose.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/what-is-docker-compose.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim below this line, except image paths (see Images).
-- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (query options such as `?border=true` removed); the text is otherwise verbatim. Copies: [`todo-list-app.webp`](assets/todo-list-app.webp) ← [`content/get-started/docker-concepts/the-basics/images/todo-list-app.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/todo-list-app.webp); [`todo-list-containers.webp`](assets/todo-list-containers.webp) ← [`content/get-started/docker-concepts/the-basics/images/todo-list-containers.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/todo-list-containers.webp); [`todo-list-delete.webp`](assets/todo-list-delete.webp) ← [`content/get-started/docker-concepts/the-basics/images/todo-list-delete.webp`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/get-started/docker-concepts/the-basics/images/todo-list-delete.webp)
 
 ---
 

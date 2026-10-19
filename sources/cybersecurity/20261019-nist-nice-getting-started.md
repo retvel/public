@@ -4,7 +4,6 @@
 - **Type:** official documentation (NIST NICE Program)
 - **URL:** https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center/getting-started
 - **Capture:** Fetched with curl on 2026-10-19. The page's main content (the `<main>` element, or the page body when there is none) was converted to GitHub-flavored Markdown with pandoc after removing scripts, styles, navigation, header, footer, forms, and buttons; tables that Markdown cannot express are kept as HTML. The text is otherwise verbatim. Images are not copied; their links are kept as on the page.
-- **License:** Work of the U.S. Government (NIST); not subject to copyright protection in the United States (17 U.S.C. § 105). Reproduced as described under Capture.
 
 ---
 

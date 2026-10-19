@@ -4,7 +4,6 @@
 - **Type:** official documentation (kind)
 - **URL:** https://kind.sigs.k8s.io/docs/user/loadbalancer/
 - **Upstream file:** [`kubernetes-sigs/kind` → `site/content/docs/user/loadbalancer.md`](https://github.com/kubernetes-sigs/kind/blob/214d9fd1426470dcfa0d8aa1c5dda03bfea835cb/site/content/docs/user/loadbalancer.md) at commit `214d9fd` (2026-10-13)
-- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0) — the license of the kind website content (`site/LICENSE`), Copyright The Kubernetes Authors. See [LICENSE-kind-site](LICENSE-kind-site). Reproduced verbatim and unmodified below this line.
 - **Included files:** the published page pulls these files in when the site is built (code samples, shared includes, partials). They are appended verbatim after the page, under "Included files", from the same commit: [`site/static/examples/loadbalancer/usage.yaml`](https://github.com/kubernetes-sigs/kind/blob/214d9fd1426470dcfa0d8aa1c5dda03bfea835cb/site/static/examples/loadbalancer/usage.yaml)
 
 ---

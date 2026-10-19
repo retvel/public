@@ -4,8 +4,6 @@
 - **Type:** standard (OWASP Top 10:2025)
 - **URL:** https://owasp.org/Top10/2025/0x00_2025-Introduction/
 - **Upstream file:** [`OWASP/Top10` → `2025/docs/en/0x00_2025-Introduction.md`](https://github.com/OWASP/Top10/blob/3a31f35346c3f4e90f350395124382fa53af2afe/2025/docs/en/0x00_2025-Introduction.md) at commit `3a31f35` (2026-09-24)
-- **License:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), per the repository LICENSE — Copyright OWASP Top 10 Team. (The rendered site footer states CC BY 3.0.) See [LICENSE-owasp-top10](LICENSE-owasp-top10). Reproduced verbatim below this line, except image paths (see Images).
-- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies (including links to the same repository's images on raw.githubusercontent.com); the text is otherwise verbatim. Copies: [`TOP_10_logo_Final_Logo_Colour.png`](assets/TOP_10_logo_Final_Logo_Colour.png) ← [`2025/docs/assets/TOP_10_logo_Final_Logo_Colour.png`](https://github.com/OWASP/Top10/blob/3a31f35346c3f4e90f350395124382fa53af2afe/2025/docs/assets/TOP_10_logo_Final_Logo_Colour.png); [`2025-mappings.png`](assets/2025-mappings.png) ← [`2025/docs/assets/2025-mappings.png`](https://github.com/OWASP/Top10/blob/3a31f35346c3f4e90f350395124382fa53af2afe/2025/docs/assets/2025-mappings.png)
 
 ---
 

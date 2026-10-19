@@ -4,7 +4,6 @@
 - **Type:** official documentation (Kubernetes Docs)
 - **URL:** https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/
 - **Upstream file:** [`kubernetes/website` → `content/en/docs/tasks/administer-cluster/migrating-from-dockershim/_index.md`](https://github.com/kubernetes/website/blob/1fc565c2f557823a911f073dc577945230f27dd7/content/en/docs/tasks/administer-cluster/migrating-from-dockershim/_index.md) at commit `1fc565c` (2026-10-19)
-- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0) — Copyright The Kubernetes Authors ("Documentation Distributed under CC BY 4.0"). See [LICENSE-kubernetes-website](LICENSE-kubernetes-website). Reproduced verbatim and unmodified below this line.
 
 ---
 

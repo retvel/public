@@ -6,7 +6,6 @@
 - **Author / publisher:** OverTheWire community
 - **Published / updated:** not stated on the page
 - **Capture:** Fetched with curl on 2026-10-19. The page's main content (the `<main>` element, or the page body when there is none) was converted to GitHub-flavored Markdown with pandoc after removing scripts, styles, navigation, header, footer, forms, and buttons; tables that Markdown cannot express are kept as HTML. The text is otherwise verbatim. Images are not copied; their links are kept as on the page.
-- **License:** OverTheWire community; no license stated on the page. Publicly accessible page, copied for non-commercial reference with attribution; all rights remain with the copyright holder.
 
 ---
 

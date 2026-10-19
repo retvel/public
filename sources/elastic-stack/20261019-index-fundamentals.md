@@ -6,7 +6,6 @@
 - **Author / publisher:** Elastic N.V. (Elastic documentation team)
 - **Published / updated:** no date shown on the page; upstream file at commit dated 2026-10-16
 - **Upstream file:** [`elastic/docs-content` → `manage-data/data-store/index-basics.md`](https://github.com/elastic/docs-content/blob/55f05da44f1e68caf6b83d60715f6a41bcdaa2d3/manage-data/data-store/index-basics.md) at commit `55f05da` (2026-10-16)
-- **License:** Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) — Copyright Elasticsearch B.V. See [LICENSE-elastic-docs-content](LICENSE-elastic-docs-content). Shared non-commercially as an unmodified copy. Reproduced verbatim below this line.
 - **Note:** Placeholders such as `{{es}}`, `{{kib}}`, `{{agent}}`, `{{ls}}`, `{{fleet}}`, `{{stack}}` are substitutions defined in the repo's `docset.yml` (es = Elasticsearch, kib = Kibana, agent = Elastic Agent, ls = Logstash, fleet = Fleet, stack = Elastic Stack, beats = Beats, watcher = Watcher, serverless-full = Elastic Cloud Serverless, ech = Elastic Cloud Hosted, edot = Elastic OpenTelemetry). `{{version.stack}}` is filled in by the docs build from a central version file.
 
 ---

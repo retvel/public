@@ -4,7 +4,6 @@
 - **Type:** official documentation (Model Context Protocol)
 - **URL:** https://modelcontextprotocol.io/docs/2026-07-28/learn/versioning
 - **Upstream file:** [`modelcontextprotocol/modelcontextprotocol` → `docs/docs/2026-07-28/learn/versioning.mdx`](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/1155ca460e5097019f32769b38dcba194432e2fb/docs/docs/2026-07-28/learn/versioning.mdx) at commit `1155ca4` (2026-10-17)
-- **License:** Documentation: CC BY 4.0; specification: Apache-2.0 (older contributions MIT) — per the repository `LICENSE`. See [LICENSE-mcp](LICENSE-mcp). Reproduced verbatim below this line.
 
 ---
 

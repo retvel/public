@@ -4,7 +4,6 @@
 - **Type:** official blog post (Kubernetes Blog)
 - **URL:** https://kubernetes.io/blog/2025/11/11/ingress-nginx-retirement/
 - **Upstream file:** [`kubernetes/website` → `content/en/blog/_posts/2025/ingress-nginx-retirement.md`](https://github.com/kubernetes/website/blob/1fc565c2f557823a911f073dc577945230f27dd7/content/en/blog/_posts/2025/ingress-nginx-retirement.md) at commit `1fc565c` (2026-10-19)
-- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0) — Copyright The Kubernetes Authors ("Documentation Distributed under CC BY 4.0"). See [LICENSE-kubernetes-website](LICENSE-kubernetes-website). Reproduced verbatim and unmodified below this line.
 
 ---
 

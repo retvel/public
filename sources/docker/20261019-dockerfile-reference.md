@@ -4,7 +4,6 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/reference/dockerfile/
 - **Upstream file:** [`docker/docs` → `_vendor/github.com/moby/buildkit/frontend/dockerfile/docs/reference.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/_vendor/github.com/moby/buildkit/frontend/dockerfile/docs/reference.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. and the Moby BuildKit authors (vendored from `moby/buildkit`). See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim and unmodified below this line.
 
 ---
 

@@ -4,7 +4,6 @@
 - **Type:** standard (OWASP Top 10 for LLM Applications, 2025 edition = folder `2_0_vulns`)
 - **URL:** https://genai.owasp.org/llmrisk/llm032025-supply-chain/
 - **Upstream file:** [`OWASP/www-project-top-10-for-large-language-model-applications` → `2_0_vulns/LLM03_SupplyChain.md`](https://github.com/OWASP/www-project-top-10-for-large-language-model-applications/blob/99f4395589bdbd120ae961f9cd179e79d7f9b27f/2_0_vulns/LLM03_SupplyChain.md) at commit `99f4395` (2026-08-05)
-- **License:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) — OWASP Top 10 for LLM Applications project. See [LICENSE-owasp-llm-top-10](LICENSE-owasp-llm-top-10). Reproduced verbatim below this line.
 
 ---
 

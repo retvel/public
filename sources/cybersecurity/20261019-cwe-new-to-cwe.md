@@ -6,7 +6,6 @@
 - **Author / publisher:** The MITRE Corporation
 - **Published / updated:** not stated on the page
 - **Capture:** Fetched with curl on 2026-10-19. The page body was converted to plain text with pandoc (`-t plain`) after removing scripts and styles, because its layout tables do not convert to Markdown; the text is otherwise verbatim, inside a fenced text block. Images are not included.
-- **License:** © The MITRE Corporation; CWE Terms of Use apply. Publicly accessible page, copied for non-commercial reference with attribution; all rights remain with the copyright holder.
 
 ---
 

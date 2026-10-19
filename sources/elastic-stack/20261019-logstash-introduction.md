@@ -6,7 +6,6 @@
 - **Author / publisher:** Elastic N.V.
 - **Published / updated:** no date shown on the page; upstream file at commit dated 2026-10-18
 - **Upstream file:** [`elastic/logstash` → `docs/reference/index.md`](https://github.com/elastic/logstash/blob/5ad00e8a27286ffdf19c61c52d8f115781c449dc/docs/reference/index.md) at commit `5ad00e8` (2026-10-18)
-- **License:** Apache License 2.0 — the `elastic/logstash` `LICENSE.txt` licenses everything outside the `x-pack` folder (including `docs/`) under Apache-2.0. See [LICENSE-logstash](LICENSE-logstash). Reproduced verbatim below this line.
 - **Note:** `{{ls}}` = Logstash, `{{es}}` = Elasticsearch; `{{version.stack}}` is filled in by the docs build.
 
 ---

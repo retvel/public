@@ -4,7 +4,6 @@
 - **Type:** official documentation (Kubernetes Docs)
 - **URL:** https://kubernetes.io/docs/setup/production-environment/container-runtimes/
 - **Upstream file:** [`kubernetes/website` → `content/en/docs/setup/production-environment/container-runtimes.md`](https://github.com/kubernetes/website/blob/1fc565c2f557823a911f073dc577945230f27dd7/content/en/docs/setup/production-environment/container-runtimes.md) at commit `1fc565c` (2026-10-19)
-- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0) — Copyright The Kubernetes Authors ("Documentation Distributed under CC BY 4.0"). See [LICENSE-kubernetes-website](LICENSE-kubernetes-website). Reproduced verbatim and unmodified below this line.
 - **Version values:** the `skew` and `param` shortcodes render from [`hugo.toml`](https://github.com/kubernetes/website/blob/1fc565c2f557823a911f073dc577945230f27dd7/hugo.toml) (`latest = "v1.37"`, `version = "v1.37"`). So `{{< skew currentVersion >}}` and `{{< skew latestVersion >}}` = `1.37`, `{{< param "version" >}}` = `v1.37`, `currentVersionAddMinor -1` = `1.36` (`-2` = `1.35`, `-3` = `1.34`, `+1` = `1.38`), `prevMinorVersion` = `1.36`, `nextMinorVersion` = `1.38`, `oldestMinorVersion` = `1.35`.
 - **Glossary:** words marked with `glossary_tooltip` / `glossary_definition` shortcodes show text from the glossary entries, which are saved in [20261019-glossary.md](20261019-glossary.md).
 

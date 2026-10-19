@@ -4,7 +4,6 @@
 - **Type:** official documentation (Wireshark User's Guide, AsciiDoc source)
 - **URL:** https://www.wireshark.org/docs/wsug_html_chunked/ChapterWork.html
 - **Upstream file:** [`wireshark/wireshark (GitLab)` → `doc/wsug_src/wsug_work.adoc`](https://gitlab.com/wireshark/wireshark/-/blob/c502e3e820c3d6a9419322fc9d41017cffc894f7/doc/wsug_src/wsug_work.adoc) at commit `c502e3e` (2026-10-18)
-- **License:** Wireshark User's Guide — © Wireshark contributors; GNU General Public License v2 or later. See [LICENSE-wireshark](LICENSE-wireshark). Reproduced verbatim and unmodified below this line, inside a fenced code block.
 
 ---
 

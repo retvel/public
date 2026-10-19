@@ -4,7 +4,6 @@
 - **Type:** official documentation (OWASP Cheat Sheet Series)
 - **URL:** https://cheatsheetseries.owasp.org/cheatsheets/Security_Terminology_Cheat_Sheet.html
 - **Upstream file:** [`OWASP/CheatSheetSeries` → `cheatsheets/Security_Terminology_Cheat_Sheet.md`](https://github.com/OWASP/CheatSheetSeries/blob/83abf91f1c1ba706df94fb79150ad6dedf743253/cheatsheets/Security_Terminology_Cheat_Sheet.md) at commit `83abf91` (2026-10-19)
-- **License:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) — OWASP Cheat Sheet Series contributors. See [LICENSE-owasp-cheatsheetseries](LICENSE-owasp-cheatsheetseries). Reproduced verbatim and unmodified below this line.
 
 ---
 

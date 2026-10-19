@@ -6,7 +6,6 @@
 - **Author / publisher:** Elastic N.V.
 - **Published / updated:** no date shown on the page; upstream file at commit dated 2026-10-19
 - **Upstream file:** [`elastic/elasticsearch` → `docs/reference/elasticsearch/configuration-reference/watcher-settings.md`](https://github.com/elastic/elasticsearch/blob/6d7cefbc77a34051d2ac4b1c5f08aaba203c056d/docs/reference/elasticsearch/configuration-reference/watcher-settings.md) at commit `6d7cefb` (2026-10-19)
-- **License:** GNU Affero General Public License v3.0 — one of the three licenses (AGPL-3.0 / SSPL-1.0 / Elastic License 2.0) that the `elastic/elasticsearch` `LICENSE.txt` grants by default outside `x-pack`; this copy is shared under AGPL-3.0. See [LICENSE-elasticsearch](LICENSE-elasticsearch). Reproduced verbatim below this line.
 - **Note:** `{{watcher}}` = Watcher, `{{es}}` = Elasticsearch (docs build substitutions).
 
 ---

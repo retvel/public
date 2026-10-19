@@ -4,7 +4,6 @@
 - **Type:** official documentation (minikube)
 - **URL:** https://minikube.sigs.k8s.io/docs/handbook/pushing/
 - **Upstream file:** [`kubernetes/minikube` → `site/content/en/docs/handbook/pushing.md`](https://github.com/kubernetes/minikube/blob/d43dd0782a483778ff6296462a6a3d5a7ebfc44f/site/content/en/docs/handbook/pushing.md) at commit `d43dd07` (2026-10-18)
-- **License:** Apache License 2.0 — Copyright The Kubernetes Authors. See [LICENSE-minikube](LICENSE-minikube). Reproduced verbatim and unmodified below this line.
 
 ---
 

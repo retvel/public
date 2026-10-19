@@ -4,8 +4,6 @@
 - **Type:** official documentation (Kubernetes Docs)
 - **URL:** https://kubernetes.io/releases/release/
 - **Upstream file:** [`kubernetes/website` → `content/en/releases/release.md`](https://github.com/kubernetes/website/blob/1fc565c2f557823a911f073dc577945230f27dd7/content/en/releases/release.md) at commit `1fc565c` (2026-10-19)
-- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0) — Copyright The Kubernetes Authors ("Documentation Distributed under CC BY 4.0"). See [LICENSE-kubernetes-website](LICENSE-kubernetes-website). Reproduced verbatim below this line, except image paths (see Images).
-- **Images:** copied from the same commit into [`assets/`](assets/). Only the image paths in the text below were changed to point to these copies; the text is otherwise verbatim. Copies: [`release-cycle.jpg`](assets/release-cycle.jpg) ← [`static/images/releases/release-cycle.jpg`](https://github.com/kubernetes/website/blob/1fc565c2f557823a911f073dc577945230f27dd7/static/images/releases/release-cycle.jpg); [`release-lifecycle.jpg`](assets/release-lifecycle.jpg) ← [`static/images/releases/release-lifecycle.jpg`](https://github.com/kubernetes/website/blob/1fc565c2f557823a911f073dc577945230f27dd7/static/images/releases/release-lifecycle.jpg)
 
 ---
 

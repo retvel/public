@@ -4,7 +4,6 @@
 - **Type:** official documentation (Docker Docs)
 - **URL:** https://docs.docker.com/compose/how-tos/use-secrets/
 - **Upstream file:** [`docker/docs` → `content/manuals/compose/how-tos/use-secrets.md`](https://github.com/docker/docs/blob/31d174d090fd7111ca2199ed54a3978e0d4ac74d/content/manuals/compose/how-tos/use-secrets.md) at commit `31d174d` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Docker, Inc. See [LICENSE-docker-docs](LICENSE-docker-docs). Reproduced verbatim and unmodified below this line.
 
 ---
 

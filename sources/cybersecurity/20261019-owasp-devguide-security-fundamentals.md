@@ -4,7 +4,6 @@
 - **Type:** official documentation (OWASP Developer Guide)
 - **URL:** https://devguide.owasp.org/en/02-foundations/01-security-fundamentals/
 - **Upstream file:** [`OWASP/devguide` → `docs/en/02-foundations/01-security-fundamentals.md`](https://github.com/OWASP/devguide/blob/4ed562b88971bd66814420d9e2c284c2cffbbbec/docs/en/02-foundations/01-security-fundamentals.md) at commit `4ed562b` (2026-10-16)
-- **License:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) — OWASP Developer Guide contributors. See [LICENSE-owasp-devguide](LICENSE-owasp-devguide). Reproduced verbatim and unmodified below this line.
 
 ---
 

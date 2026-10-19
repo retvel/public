@@ -6,7 +6,6 @@
 - **Author / publisher:** Republik Indonesia — JDIH Kementerian Sekretariat Negara
 - **Published / updated:** Disahkan dan diundangkan 2 Januari 2026 (LN 2026 No. 1, TLN No. 7153)
 - **Capture:** Official PDF downloaded with curl on 2026-10-19 from https://jdih.setneg.go.id/api/hukumproduk/pdf?l=uploads&f=Salinan%20UU%20Nomor%201%20Tahun%202026.pdf&fl=P20495. Text layer extracted with `pdftotext -layout` (poppler) and reproduced in full as extracted, inside a fenced text block; layout spacing is kept and OCR errors in the PDF's own text layer (it is a scanned *salinan*) are not corrected. Figures are not included.
-- **License:** Official text of the Republic of Indonesia, published by JDIH Kementerian Sekretariat Negara; laws are not subject to copyright under UU 28/2014 Pasal 42.
 
 ---
 

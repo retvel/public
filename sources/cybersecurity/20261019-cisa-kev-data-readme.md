@@ -4,7 +4,6 @@
 - **Type:** official data documentation (CISA)
 - **URL:** https://github.com/cisagov/kev-data
 - **Upstream file:** [`cisagov/kev-data` → `README.md`](https://github.com/cisagov/kev-data/blob/6a392940c663b52271fa4e6aa7b39995b18c9a71/README.md) at commit `6a39294` (2026-10-16)
-- **License:** Creative Commons CC0 1.0 (public domain dedication) — CISA. See [LICENSE-cisagov-kev-data](LICENSE-cisagov-kev-data). Reproduced verbatim and unmodified below this line.
 
 ---
 

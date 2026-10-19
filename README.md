@@ -28,7 +28,6 @@ Each snapshot starts with a header, then the source content:
 - **Type:** official documentation | standard | law | paper | article
 - **URL:** <original URL>
 - **Upstream file:** <repo, path, and commit — when the page is built from a Git repo>
-- **License:** <license and copyright holder; how the content is reproduced>
 
 ---
 
@@ -37,14 +36,14 @@ Each snapshot starts with a header, then the source content:
 
 Rules:
 - **Images included.** Images that a source page shows are copied into `assets/`, and
-  their paths in the snapshot point to those copies. The header lists each copy with its
-  original path. Nothing else in the text is changed.
+  their paths in the snapshot point to those copies. Nothing else in the text is
+  changed.
 - **Immutable.** A snapshot is never edited after it is added. If the source changes,
   a new dated snapshot is added next to the old one.
 - **Publicly accessible sources.** This repo holds snapshots of sources anyone can open
-  without a login or payment, for non-commercial reference. Each snapshot names its
-  origin, copyright holder, and license (when there is one). Open-license texts include
-  their license file.
+  without a login or payment, for non-commercial reference. Each topic's `README.md`
+  names the origin, the copyright holder, and the license (when there is one).
+  Open-license texts include their license file.
 - **Takedown.** If a copyright holder asks for a snapshot to be removed, it is removed
   from this repo.
 - **No personal data or secrets.** This repo is public.

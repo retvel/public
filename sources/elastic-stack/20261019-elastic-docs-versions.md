@@ -4,7 +4,6 @@
 - **Type:** official configuration file (Elastic docs build system)
 - **URL:** https://github.com/elastic/docs-builder/blob/main/config/versions.yml
 - **Upstream file:** [`elastic/docs-builder` → `config/versions.yml`](https://github.com/elastic/docs-builder/blob/879aace403f2a06b92e85e8ac568310ce31a62bb/config/versions.yml) at commit `879aace` (2026-10-16)
-- **License:** Apache License 2.0 — Copyright Elasticsearch B.V. See [LICENSE-docs-builder](LICENSE-docs-builder). Reproduced verbatim below this line.
 
 ---
 

@@ -4,7 +4,6 @@
 - **Type:** standard (official machine-readable OSCAL catalog of the NIST Cybersecurity Framework 2.0 Core)
 - **URL:** https://github.com/usnistgov/oscal-content/blob/main/nist.gov/CSF/v2.0/yaml/NIST_CSF_v2.0_catalog.yaml
 - **Upstream file:** [`usnistgov/oscal-content` → `nist.gov/CSF/v2.0/yaml/NIST_CSF_v2.0_catalog.yaml`](https://github.com/usnistgov/oscal-content/blob/78650f02ad9321bb7b817846f8fbd4f2bcd620de/nist.gov/CSF/v2.0/yaml/NIST_CSF_v2.0_catalog.yaml) at commit `78650f0` (2026-05-13)
-- **License:** Public domain — U.S. Government work, with a worldwide CC0 1.0 waiver. See [LICENSE-usnistgov-oscal-content](LICENSE-usnistgov-oscal-content). Reproduced verbatim and unmodified below this line, inside a fenced code block.
 
 ---
 

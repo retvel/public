@@ -4,7 +4,6 @@
 - **Type:** official data file (Nmap services database: port numbers and service names)
 - **URL:** https://github.com/nmap/nmap/blob/master/nmap-services
 - **Upstream file:** [`nmap/nmap` → `nmap-services`](https://github.com/nmap/nmap/blob/f06480daed9a9b2cdce61904222cc87788afdf84/nmap-services) at commit `f06480d` (2026-10-15)
-- **License:** © Nmap Software LLC; distributed with Nmap under the Nmap Public Source License. Publicly accessible page, copied for non-commercial reference with attribution; all rights remain with the copyright holder. Reproduced verbatim and unmodified below this line, inside a fenced code block.
 
 ---
 
