@@ -1,0 +1,73 @@
+# Source Snapshot: Ingest tools overview
+
+- **Accessed:** 2026-10-19
+- **Type:** official documentation (Elastic Docs)
+- **URL:** https://www.elastic.co/docs/manage-data/ingest/tools
+- **Author / publisher:** Elastic N.V. (Elastic documentation team)
+- **Published / updated:** no date shown on the page; upstream file at commit dated 2026-10-16
+- **Upstream file:** [`elastic/docs-content` → `manage-data/ingest/tools.md`](https://github.com/elastic/docs-content/blob/55f05da44f1e68caf6b83d60715f6a41bcdaa2d3/manage-data/ingest/tools.md) at commit `55f05da` (2026-10-16)
+- **License:** Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) — Copyright Elasticsearch B.V. See [LICENSE-elastic-docs-content](LICENSE-elastic-docs-content). Shared non-commercially as an unmodified copy. Reproduced verbatim below this line.
+- **Note:** Placeholders such as `{{es}}`, `{{kib}}`, `{{agent}}`, `{{ls}}`, `{{fleet}}`, `{{stack}}` are substitutions defined in the repo's `docset.yml` (es = Elasticsearch, kib = Kibana, agent = Elastic Agent, ls = Logstash, fleet = Fleet, stack = Elastic Stack, beats = Beats, watcher = Watcher, serverless-full = Elastic Cloud Serverless, ech = Elastic Cloud Hosted, edot = Elastic OpenTelemetry). `{{version.stack}}` is filled in by the docs build from a central version file.
+
+---
+
+---
+mapped_pages:
+  - https://www.elastic.co/guide/en/cloud/current/ec-cloud-ingest-data.html
+  - https://www.elastic.co/guide/en/kibana/current/connect-to-elasticsearch.html
+  - https://www.elastic.co/guide/en/serverless/current/project-setting-data.html
+applies_to:
+  stack: ga
+  serverless: ga
+products:
+  - id: cloud-hosted
+  - id: fleet
+  - id: kibana
+  - id: cloud-serverless
+---
+
+# Ingest tools overview
+
+% What needs to be done: Finish draft
+
+% GitHub issue: docs-projects#327
+
+% Scope notes: Read more about the scope in the tracking issue
+
+% Use migrated content from existing pages that map to this page:
+
+% - [x] ./raw-migrated-files/cloud/cloud/ec-cloud-ingest-data.md
+%      Notes: These are resources to pull from, but this new "Ingest tools overiew" page will not be a replacement for any of these old AsciiDoc pages.  File upload: https://www.elastic.co/guide/en/kibana/current/connect-to-elasticsearch.html#upload-data-kibana https://www.elastic.co/guide/en/serverless/current/elasticsearch-ingest-data-file-upload.html API: https://www.elastic.co/guide/en/kibana/current/connect-to-elasticsearch.html#_add_data_with_programming_languages https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html https://www.elastic.co/guide/en/serverless/current/elasticsearch-ingest-data-through-api.html OpenTelemetry: https://github.com/elastic/opentelemetry Fleet and Agent: https://www.elastic.co/guide/en/fleet/current/fleet-overview.html https://www.elastic.co/guide/en/serverless/current/fleet-and-elastic-agent.html Logstash: https://www.elastic.co/guide/en/logstash/current/introduction.html https://www.elastic.co/guide/en/serverless/current/elasticsearch-ingest-data-through-logstash.html https://www.elastic.co/guide/en/serverless/current/logstash-pipelines.html Beats: https://www.elastic.co/guide/en/beats/libbeat/current/beats-reference.html https://www.elastic.co/guide/en/serverless/current/elasticsearch-ingest-data-through-beats.html APM: /solutions/observability/apps/application-performance-monitoring-apm.md Application logging: https://www.elastic.co/guide/en/observability/current/application-logs.html ECS logging: https://www.elastic.co/guide/en/observability/current/logs-ecs-application.html Elastic serverless forwarder for AWS: https://www.elastic.co/guide/en/esf/current/aws-elastic-serverless-forwarder.html Integrations: https://www.elastic.co/guide/en/integrations/current/introduction.html Search connectors: https://www.elastic.co/guide/en/elasticsearch/reference/current/es-connectors.html https://www.elastic.co/guide/en/serverless/current/elasticsearch-ingest-data-through-integrations-connector-client.html Web crawler: https://github.com/elastic/crawler/tree/main/docs
+% - [This comparison page is being moved to the reference section, so I'm linking to that from the current page - Wajiha] ./raw-migrated-files/ingest-docs/fleet/beats-agent-comparison.md
+% - [x] ./raw-migrated-files/kibana/kibana/connect-to-elasticsearch.md
+% - [x] https://www.elastic.co/customer-success/data-ingestion
+% - [x] https://github.com/elastic/ingest-docs/pull/1373
+
+% Internal links rely on the following IDs being on this page (for example, as a heading ID, paragraph ID, and so on):
+% These IDs are from content that I'm not including on this current page. I've resolved them by changing the internal links to anchor links where needed. - Wajiha
+
+$$$supported-outputs-beats-and-agent$$$
+
+$$$additional-capabilities-beats-and-agent$$$
+
+Depending on the type of data you want to ingest, you have a number of methods and tools available for use in your ingestion process. The table below provides more information about the available tools.
+
+Refer to our [Ingestion](/manage-data/ingest.md) overview for some guidelines to help you select the optimal tool for your use case.
+
+<br>
+
+| Tools   | Usage           | Links to more information |
+| ------- | --------------- | ------------------------- |
+| Integrations | Ingest data using a variety of Elastic integrations. | [Elastic Integrations](integration-docs://reference/index.md) |
+| File upload | Upload data from a file and inspect it before importing it into {{es}}. | [Upload data files](/manage-data/ingest/upload-data-files.md) |
+| APIs  | Ingest data through code by using the APIs of one of the language clients or the {{es}} HTTP APIs. | [Document APIs]({{es-apis}}group/endpoint-document) |
+| OpenTelemetry | Collect and send your telemetry data to Elastic Observability | [Elastic Distributions of OpenTelemetry](opentelemetry://reference/index.md) |
+| Fleet and Elastic Agent | Add monitoring for logs, metrics, and other types of data to a host using Elastic Agent, and centrally manage it using Fleet. | [Fleet and {{agent}} overview](/reference/fleet/index.md) <br> [{{fleet}} and {{agent}} restrictions (Serverless)](/reference/fleet/fleet-agent-serverless-restrictions.md) <br> [{{beats}} and {{agent}} capabilities](/reference/fleet/beats-agent-comparison.md)|
+| {{elastic-defend}} | {{elastic-defend}} provides organizations with prevention, detection, and response capabilities with deep visibility for EPP, EDR, SIEM, and Security Analytics use cases across Windows, macOS, and Linux operating systems running on both traditional endpoints and public cloud environments. | [Configure endpoint protection with {{elastic-defend}}](/solutions/security/configure-elastic-defend.md) |
+| {{ls}} | Dynamically unify data from a wide variety of data sources and normalize it into destinations of your choice with {{ls}}. | [Logstash](logstash://reference/index.md) |
+| {{beats}} | Use {{beats}} data shippers to send operational data to Elasticsearch directly or through Logstash. | [{{beats}}](beats://reference/index.md) |
+| APM | Collect detailed performance information on response time for incoming requests, database queries, calls to caches, external HTTP requests, and more. | [Application performance monitoring (APM)](/solutions/observability/apm/index.md) |
+| Application logs | Ingest application logs using Filebeat, {{agent}}, or the APM agent, or reformat application logs into Elastic Common Schema (ECS) logs and then ingest them using Filebeat or {{agent}}.  | [Stream application logs](/solutions/observability/logs/stream-application-logs.md) <br> [ECS formatted application logs](/solutions/observability/logs/ecs-formatted-application-logs.md) |
+| Elastic Serverless forwarder for AWS | Ship logs from your AWS environment to cloud-hosted, self-managed Elastic environments, or {{ls}}. | [Elastic Serverless Forwarder](elastic-serverless-forwarder://reference/index.md) |
+| Connectors | Use connectors to extract data from an original data source and sync it to an {{es}} index. | [Ingest content with Elastic connectors](elasticsearch://reference/search-connectors/index.md) <br> [Connector clients](elasticsearch://reference/search-connectors/index.md) |
+| Web crawler | Discover, extract, and index searchable content from websites and knowledge bases using the web crawler. | [Elastic Open Web Crawler](https://github.com/elastic/crawler#readme) |
