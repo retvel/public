@@ -53,7 +53,7 @@ Rules:
 
 | Topic | Snapshots | Origin |
 |-------|-----------|--------|
-| [cybersecurity](sources/cybersecurity/README.md) | 54 | OWASP Top 10:2025, Cheat Sheet Series, Developer Guide, WSTG (CC BY-SA 4.0); NIST SP 800-63B-4, CSF 2.0, SP 800-53r5, SP 800-61r3, FIPS 203–205, NICE (public domain); CISA KEV (CC0) — accessed 2026-10-19 |
+| [cybersecurity](sources/cybersecurity/README.md) | 98 | OWASP (Top 10:2025, Cheat Sheets, Dev Guide, WSTG), NIST (800-63B-4, CSF 2.0, 800-53r5, 800-61r3, FIPS 203–205, NICE), CISA KEV, MITRE ATT&CK/CWE, CVE, FIRST CVSS v4.0, Nmap, Wireshark, Kali, DVWA, UK NCSC, practice platforms, CompTIA, OffSec, Indonesian laws (JDIH Setneg) — accessed 2026-10-19 |
 | [docker](sources/docker/README.md) | 54 | Docker Docs (`docker/docs` @ `31d174d`, 2026-10-16), Apache-2.0 |
 | [elastic-stack](sources/elastic-stack/README.md) | 20 | Elastic docs (`elastic/docs-content` @ `55f05da`, `elastic/elasticsearch` @ `6d7cefb`, `elastic/logstash` @ `5ad00e8`, `elastic/docs-builder` @ `879aace`), CC BY-NC-ND 4.0 / AGPL-3.0 / Apache-2.0 |
 | [kubernetes](sources/kubernetes/README.md) | 132 | Kubernetes Docs and Blog (`kubernetes/website` @ `1fc565c`, 2026-10-19, v1.37), CC BY 4.0; Helm Docs (`helm/helm-www` @ `dc74ea9`), CC BY 4.0 docs / MIT repo; kind docs (`kubernetes-sigs/kind` @ `214d9fd`), CC BY 4.0; minikube docs (`kubernetes/minikube` @ `d43dd07`), Apache-2.0 |
